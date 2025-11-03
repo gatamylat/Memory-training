@@ -1,0 +1,80 @@
+{
+  "name": "Научная тренировка памяти - Полная версия",
+  "short_name": "Память Pro",
+  "description": "Расширенная программа тренировки мозга с упражнениями профессора Кавашимы",
+  "start_url": "/memory_training_extended.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#FF6B35",
+  "background_color": "#FAFAFA",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='24' fill='%23FF6B35'/%3E%3Ctext x='96' y='130' font-family='-apple-system' font-size='100' fill='white' text-anchor='middle'%3E🧠%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='64' fill='%23FF6B35'/%3E%3Ctext x='256' y='350' font-family='-apple-system' font-size='280' fill='white' text-anchor='middle'%3E🧠%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "health", "productivity"],
+  "lang": "ru-RU",
+  "dir": "ltr",
+  "scope": "/",
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "shortcuts": [
+    {
+      "name": "Quick Training",
+      "short_name": "Train",
+      "description": "Start daily training session",
+      "url": "/memory_training_extended.html?quick=true",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' rx='12' fill='%23FF6B35'/%3E%3Ctext x='48' y='65' font-family='-apple-system' font-size='50' fill='white' text-anchor='middle'%3E⚡%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Progress",
+      "short_name": "Stats",
+      "description": "View your progress",
+      "url": "/memory_training_extended.html?tab=progress",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' rx='12' fill='%23FF6B35'/%3E%3Ctext x='48' y='65' font-family='-apple-system' font-size='50' fill='white' text-anchor='middle'%3E📊%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Main dashboard showing daily exercises"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Progress tracking and statistics"
+    }
+  ],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7"
+}
